@@ -36,7 +36,7 @@ beforeEach(() => {
  
      cy.get(':nth-child(5) > .ScCoreButton-sc-1qn4ixc-0').as('buttonRegister')
      .click()
- 
+ //
      cy.wait(3000)
  
      cy.get('.bXhxYI > .ScCoreButton-sc-1qn4ixc-0 > .ScCoreButtonLabel-sc-lh1yxp-0 > .Layout-sc-nxg1ff-0').as('buttonRecuseVerify')
