@@ -8,14 +8,6 @@ beforeEach(() => {
  
  })
  
- //Cypress._.times(3, () => {
- it('test for entry in the page for view in youtube', () => {
-     
-     cy.visit('https://www.youtube.com/watch?v=QaLfYpkxK2U', )
-     })
-     
- //});r
- 
  it.only('test register in the twitch with verification in email', () => {
      
      cy.get('#signup-username')
