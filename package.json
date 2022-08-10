@@ -1,0 +1,26 @@
+{
+  "name": "curso-cypress-v2",
+  "version": "1.0.0",
+  "description": "repository for a new account in twitch",
+  "main": "src/index.html",
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Traaaxx/create-account-test"
+  },
+  "keywords": [
+    "Testing",
+    "Cypress.io",
+    "Twitch",
+    "Simple bot for create a new account"
+  ],
+  "author": "Bruno Vieira <brunogjvieira@gmail.com> ",
+  "license": "MIT",
+  "homepage": "https://github.com/Traaaxx/create-account-test",
+  "devDependencies": {
+    "cypress": "^9.5.1"
+  }
+}
